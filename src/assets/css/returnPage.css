@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    background-color:#f5f5f9;
+}
+@font-face{font-family:iconfont;src:url('//at.alicdn.com/t/font_1458561103_859346.eot');src:url('//at.alicdn.com/t/font_1458561103_859346.eot?#iefix') format('embedded-opentype'),url('//at.alicdn.com/t/font_1458561103_859346.woff') format('woff'),url('//at.alicdn.com/t/font_1458561103_859346.ttf') format('truetype'),url('//at.alicdn.com/t/font_1458561103_859346.svg#iconfont') format('svg');}
+.certify-foot{width:100%;text-align:center;color:#ccc;font-size:12px;padding-top:16px;bottom:8px;position:absolute;}
+.am-button{background-color:#40cab3;margin:0 auto;border:none;color:#fff;border-radius:5px;}
+.doing-certify-content{text-align:center;}
+.certify-result{padding:10px 0 30px;border-bottom:1px solid #eee;background-color:#fff;}
+.certify-result-icon{font-family:iconfont;color:#40cab3;font-size:50px;padding:10px 0;}
+.back-btn,.button-confirm,.button-reset{width:92%;margin:30px auto 0;display:block;height:40px;font-size:18px;}
+.certify-result-main{font-size:20px;color:#40cab3;}
+.certify-result-brief{font-size:14px;color:#a5a5a5;padding-top:7px;margin:0 20px;}
+.error{color:#3FCAB3;}
+.back-btn{color:#333;background-color:#fff;border:1px solid #eee;}
+.nico-insert-code{display:inline-block;padding:10px 15px;background-color:#000;opacity:0;border-radius:10px;left:50%;position:absolute;width:60%;text-align:center;margin-left:-33%;margin-top:-50px;-webkit-transition:all .5s ease;transition:all .5s ease;}
+.am-toast{opacity:1;}.am-toast-show{opacity:.7;transform:translateY(100px);}
+.am-toast-text{color:#ddd;}
+.btn-green{background-color:#40cab3;color:#fff;}
+.zm-toast-text{color:#ddd;}
+.loading-container{display:none;background-color:#000;opacity:.6;border-radius:10px;top:40%;left:50%;position:absolute;text-align:center;margin-left:-40px;margin-top:-25px;width:90px;height:90px;}
+.loading-am{margin-left:1%;margin-top:15%;}
+.loading-hint{color:#fff;font-size:18px;}
+.certify_result_link{font-size:14px;color:#0ae;text-decoration:none;}
