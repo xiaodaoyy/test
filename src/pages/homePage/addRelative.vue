@@ -4,7 +4,7 @@
       <li><label>姓名</label><input type="text" placeholder="请输入亲人的真实姓名" v-model="granteeName"/></li>
       <li><label>身份证号</label><input type="text" placeholder="请输入身份证号" v-model="granteeId"/></li>
       <!-- <li><label>社保卡号</label><input type="text" placeholder="请输入社保卡号" v-model="card"/></li>-->
-      <li><label>关系</label><input @click="popupRelatVisible=true" readonly="readonly" class="in_bg" type="text" placeholder="配偶" :value="identity" v-model="identity" ></li>
+      <li><label>关系</label><input @click="popupRelatVisible=true" readonly="readonly" class="in_bg" type="text" placeholder="配偶 v-model="identity" ></li>
       <!-- <li><label>参保地</label><input @click="popupAddVisible=true" readonly="readonly" class="in_bg" type="text" placeholder="杭州市" :value="address"v-model="address"/></li>-->
     </ul>
     <div class="btn_next"><input type="button" value="下一步"  @click="faceCertifi" /></div>
